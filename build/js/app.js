@@ -23,10 +23,10 @@ var Age = exports.Age = function () {
 
   _createClass(Age, [{
     key: "secondConverter",
-    value: function secondConverter(date) {
+    value: function secondConverter(theInputtedThing) {
       var today = new Date();
       var todaysSeconds = today.getTime();
-      var datesSeconds = date.getTime();
+      var datesSeconds = theInputtedThing.getTime();
       var totalSeconds = (todaysSeconds - datesSeconds) / 1000;
       return totalSeconds;
     }

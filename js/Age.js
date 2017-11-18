@@ -7,10 +7,10 @@ export class Age {
     this.jupiter = 0;
     this.lifeExpectancy = 85;
   }
-  secondConverter(date) {
+  secondConverter(theInputtedThing) {
     const today = new Date();
     let todaysSeconds = today.getTime();
-    let datesSeconds = date.getTime();
+    let datesSeconds = theInputtedThing.getTime();
     let totalSeconds = (todaysSeconds - datesSeconds)/1000;
     return (totalSeconds);
   }
