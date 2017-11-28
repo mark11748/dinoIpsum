@@ -1,4 +1,4 @@
-# Tamagotchi
+# Tommy the Tamagotchi
 ##### by James Osborn and Mark Woodward
 
 ### Description
@@ -9,7 +9,8 @@ Will show a countdown, let the user press a button to add time to the countdown.
 * Open it with text Editor
 * type npm install and wait for it to complete
 * type bower install and wait for it to complete
-* type gulp serve
+* type gulp build
+* open index.html in a web browser
 
 ### Technology Needed
 * Node.js
@@ -18,7 +19,7 @@ Will show a countdown, let the user press a button to add time to the countdown.
 * Working browser with internet connection
 
 ### Known Bugs
-* Will not recognize .getTime() as a method currently for some reason
+* No known bugs.
 
 ### Specs
 
@@ -59,10 +60,11 @@ Input:
 Output:
 
 ### Contact Me
-You can reach me at adamtitus76@gmail.com or connect with me on [linkedin](www.linkedin.com/in/adam-titus-06740b149).
+You can reach us at jamescarlosborn@gmail.com or markwood117@gmail.com.
+
 #### Legal
 This is licensed under the MIT license
 
-Copyright (c) 2017 Adam Titus All Rights Reserved.
+Copyright (c) 2017 James and Mark All Rights Reserved.
 
 _If you find a way to monetize this please contact the author_
