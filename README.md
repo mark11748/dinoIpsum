@@ -1,8 +1,8 @@
-# Solar
-##### by Adam Titus
+# Tamagotchi
+##### by James Osborn and Mark Woodward
 
 ### Description
-Will calculate your age on other planets and tell you how many years you have left to live on said planets
+Will show a countdown, let the user press a button to add time to the countdown.
 
 ### Installation Instructions
 * Clone to desktop
@@ -19,6 +19,44 @@ Will calculate your age on other planets and tell you how many years you have le
 
 ### Known Bugs
 * Will not recognize .getTime() as a method currently for some reason
+
+### Specs
+
+Description: Countdown appears, starting at 30 seconds.
+Input: User goes to web page.
+Output: User sees countdown.
+
+Description: Countdown stops at 0.
+Input: User waits for countdown to decrease to 0.
+Output: Countdown stops at 0.
+
+Description: User can click a button to add 1 second.
+Input: User clicks button below countdown.
+Output: 20>21
+
+Description: User can click a button to reset the countdown.
+Input: User clicks button to reset the countdown.
+Output: Countdown 0>30.
+
+Description: Reset button appears 5 seconds after countdown ends.
+Input: Wait 5 seconds after countdown.
+Output: Button appears.
+
+Description: From 30-20 seconds, a smiley face appears.
+Input: 30-20
+Output: Smiley
+
+Description: From 20-10 seconds, a neutral face appears.
+Input: 20-10
+Output: Neutral
+
+Description: From 10-0 seconds, a frowny face appears.
+Input: 10-0
+Output: Frowny
+
+Description: Project incorporate Giffy.
+Input:
+Output:
 
 ### Contact Me
 You can reach me at adamtitus76@gmail.com or connect with me on [linkedin](www.linkedin.com/in/adam-titus-06740b149).
