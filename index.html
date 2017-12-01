@@ -7,20 +7,21 @@
     <title>Tommy the Tamagotchi</title>
   </head>
   <body>
-    <div class = "well">
-      <h1>Tommy the Tamagotchi is <strong>dying!!</strong> Feed it something quick!</h1>
-      <h2 id="LOG"></h2>
-      <div class="images"></div>
-      <button type="button" name="feed" class="btn btn-warning" id="food">Feed</button>
+    <div id="IN">
+      <p># of paragraphs</p>
+      <input type="number" name="paragraphs" value="0" min="0">
+      <p># of words</p>
+      <input type="number" name="words"      value="0" min="0">
+      <button type="button" name="submit" id="PASS">PASS to dino-ipsum</button>
     </div>
-    <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
-      <label for="location">Enter a location:</label>
-      <input id="location" type="text">
-      <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
-      <div class="errors"></div>
-      <div class="showHumidity"></div>
-      <div class="showTemp"></div>
+    <div id="OUT">
+      <ul id="RAW">
+        <!-- raw output from api goes here (ul of paragraphs) -->
+      </ul>
+      <div id="INFO">
+        <!-- info on raw output here -->
+        <p>there are <span id="OVER7"></span> word with more than 7 letters.</p>
+      </div>
     </div>
   </body>
 </html>

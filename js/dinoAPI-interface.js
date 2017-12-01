@@ -26,7 +26,8 @@ $(document).ready(function() {
         dinoRequest.send();
       };
     });
-    dinoPromise.then( function(dinoRequest.response) {rawFeed(dinoRequest);});
+    dinoPromise.then(function(response) {rawFeed(dinoRequest);},
+                     function()         {console.log("err")});
   });
 
 });
